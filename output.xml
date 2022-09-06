@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.6 on win32)" generated="20220906 18:46:00.855" rpa="false" schemaversion="3">
+<suite id="s1" name="Test Robotframework" source="C:\Users\Snigana\Documents\GitHub\test_robotframework">
+<suite id="s1-s1" name="Test Login Rf" source="C:\Users\Snigana\Documents\GitHub\test_robotframework\test_login_rf.robot">
+<test id="s1-s1-t1" name="Login to the system" line="15">
+<kw name="Open login page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${LOGIN URL} ${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220906 18:46:01.035" level="INFO">Opening browser 'firefox' to base url 'https://scouts-test.futbolkolektyw.pl/en Chrome'.</msg>
+<msg timestamp="20220906 18:46:01.036" level="INFO">Firefox driver log is always forced to to: C:\Users\Snigana\Documents\GitHub\test_robotframework\geckodriver-11.log</msg>
+<msg timestamp="20220906 18:46:01.056" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220906 18:46:01.056" level="FAIL">WebDriverException: Message: 'geckodriver' executable needs to be in PATH. 
+</msg>
+<status status="FAIL" starttime="20220906 18:46:01.035" endtime="20220906 18:46:01.058"/>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>Scouts panel - sign in</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<status status="NOT RUN" starttime="20220906 18:46:01.058" endtime="20220906 18:46:01.058"/>
+</kw>
+<status status="FAIL" starttime="20220906 18:46:01.034" endtime="20220906 18:46:01.059"/>
+</kw>
+<kw name="Type in email">
+<status status="NOT RUN" starttime="20220906 18:46:01.059" endtime="20220906 18:46:01.059"/>
+</kw>
+<kw name="Type in password">
+<status status="NOT RUN" starttime="20220906 18:46:01.059" endtime="20220906 18:46:01.059"/>
+</kw>
+<kw name="Click on the Submit button">
+<status status="NOT RUN" starttime="20220906 18:46:01.059" endtime="20220906 18:46:01.059"/>
+</kw>
+<kw name="Assert dashboard">
+<status status="NOT RUN" starttime="20220906 18:46:01.059" endtime="20220906 18:46:01.059"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220906 18:46:01.060" endtime="20220906 18:46:01.060"/>
+</kw>
+<status status="FAIL" starttime="20220906 18:46:01.034" endtime="20220906 18:46:01.060">WebDriverException: Message: 'geckodriver' executable needs to be in PATH. 
+</status>
+</test>
+<doc>Suite description #automated tests for scout website</doc>
+<status status="FAIL" starttime="20220906 18:46:00.877" endtime="20220906 18:46:01.060"/>
+</suite>
+<status status="FAIL" starttime="20220906 18:46:00.857" endtime="20220906 18:46:01.061"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test Robotframework">Test Robotframework</stat>
+<stat pass="0" fail="1" skip="0" id="s1-s1" name="Test Login Rf">Test Robotframework.Test Login Rf</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
