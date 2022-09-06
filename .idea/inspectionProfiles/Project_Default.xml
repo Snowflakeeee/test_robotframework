@@ -1,0 +1,14 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="pages.base_page.BasePage.driver" />
+          <option value="pages.login_page.LoginPage.clicking_on_changing_language_button" />
+          <option value="test_cases.adding_a_player.TestDashboardPage.clicking_on_add_players_submit_button" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
